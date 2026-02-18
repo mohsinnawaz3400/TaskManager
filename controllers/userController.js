@@ -77,7 +77,7 @@ export const getAllUsers = async (req, res) => {
         )
     } catch (error) {
         console.log(`Error: ${error.message}`);
-        res.status(500).json({ message: "Server error" });
+        res.status(500).json({ message: "Server error Found" });
 
     }
 }
